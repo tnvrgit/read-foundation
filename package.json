@@ -1,0 +1,26 @@
+{
+  "name": "read-foundation",
+  "version": "1.0.0",
+  "description": "read-foundation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnvrgit/read-foundation.git"
+  },
+  "keywords": [
+    "read-foundation"
+  ],
+  "author": "tnvr2014@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnvrgit/read-foundation/issues"
+  },
+  "homepage": "https://github.com/tnvrgit/read-foundation#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
