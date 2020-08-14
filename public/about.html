@@ -27,10 +27,12 @@
             font-style: oblique;
             color: black
           }
-           .button {
-            background-color: #4CAF50; /* Green */
+          .button {
+            
             border: none;
-            color: white;
+            background-color: white; 
+            color: black; 
+            border: 2px solid #f44336;
             padding: 16px 32px;
             text-align: center;
             text-decoration: none;
@@ -41,26 +43,28 @@
             transition-duration: 0.4s;
             cursor: pointer;
             float: right;
+            position: fixed;
+            width: 190px;
             }
 
-            .button1 {
-            background-color: white; 
-            color: black; 
-            border: 2px solid #f44336;
-            }
-
-            .button1:hover {
+            .button:hover {
             background-color: #f44336;
             color: white;
+            }
+            .button-div {
+            float: right;
+            width: 800px;
             }
         </style>
     </head>
     <body style="margin-left: 100px; margin-right: 100px;">
-            <button class="button button1"><a href="contact.html">Contact Us</a></button>
-            <button class="button button1"><a href="about.html">About Us</a></button>
-            <button class="button button1"><a href="gallery.html">Gallery</a></button>
-            <button class="button button1"><a href="index.html">Home</a></button>
-
+      <div class="button-div">    
+        <button class="button" style="margin-left: 0px;"><a href="index.html">Home</a></button>
+        <button class="button" style="margin-left: 200px;"><a href="gallery.html">Gallery</a></button>
+        <button class="button" style="margin-left: 400px;"><a href="about.html">About Us</a></button>
+        <button class="button" style="margin-left: 600px;"><a href="contact.html">Contact Us</a></button>
+        
+    </div>    
             <p style="color:red; font-size:60px"><br><u><em>About Read Foundation</em></u></p>
     </body>
 </html>
